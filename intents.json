@@ -1,0 +1,40 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Merhaba","Naber","Nasılsın","Kimse var mı?","Selam","Hey"],
+      "responses": ["Hey :-)","Merhabalar","Selam, nasıl yardımcı olabilirim?","Buyrun"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Görüşmek üzere", "Güle güle"],
+      "responses": ["Sonra görüşürüz, ziyaret ettiğiniz için teşekkürler","İyi Günler","Güle Güle! Tekrar geri gel."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Teşekkürler", "Yardımcı oldun", "Herşey için teşekkürler!"],
+      "responses": ["Yardımcı olduğuma memnun oldum!", "Her zaman!", "Bir zevkti"]
+    },
+    {
+      "tag": "items",
+      "patterns": ["Ne istersiniz?","Neleriniz var?","Ne satıyorsunuz?"],
+      "responses": ["Çay ve kahve satıyoruz","Çay var! Kahve var!"]
+    },
+    {
+      "tag": "payments",
+      "patterns": ["Kart kabul ediyor musunuz?","Mastercard kabul ediyor musunuz?","Sadece nakit mi?"],
+      "responses": ["VISA ve Mastercard kabul ediyoruz","Başlıca bütün kredi kartlarını kabul ediyoruz"]
+    },
+    {
+      "tag": "delivery",
+      "patterns": ["Teslim almam ne kadar sürer?","Ne kadar sürede alabilirim?","Ne zaman elimde olur?"],
+      "responses": ["Teslimat ortalama 25dk sürüyor","Elinize ulaşması 20-30dk sürebilir"]
+    },
+    {
+      "tag": "funny",
+      "patterns": ["Bir şaka anlat!","Komik birşeyler anlat!","Fıkra biliyor musun?"],
+      "responses": ["Ateş, su, toprak, TAHTA!","Kimsin sen? kimsin? Çık dışarı ÇIK!"]
+    }
+  ]
+}
+
